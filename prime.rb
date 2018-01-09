@@ -4,7 +4,6 @@ def prime?(number)
   to_number = Array (2..(number - 1))
   if number < 2
     is_prime = false
-    break
   end
   to_number.each do |item|
     if number % item == 0
